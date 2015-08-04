@@ -23,5 +23,5 @@ lines(powr_consump_fil$Sub_metering_2 ~ powr_consump_fil$Date,
      col="red")
 lines(powr_consump_fil$Sub_metering_3 ~ powr_consump_fil$Date,
      col="blue")
-legend("topright", legend = names(powr_consump_fil[,7:9]), col=c("black","red","blue"), pch=1)
+legend("topright", legend = names(powr_consump_fil[,7:9]), col=c("black","red","blue"),pch=1)
 dev.off()
